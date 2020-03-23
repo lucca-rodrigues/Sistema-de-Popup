@@ -1,0 +1,27 @@
+.bg-popup{
+  background: #0000009c;
+    padding-top: 20px;
+    z-index: 9;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.popup {
+  width: 42%;
+  margin: 0 auto;
+}
+.responsive{width: 100%;height: auto;border-radius: 45px;}
+.sair{border: 1px solid;
+padding: 5px 20px;
+margin-bottom: 10px;
+color: #fff;
+float: right;
+cursor: pointer;
+}
+
+@media(max-width:767px){
+  .popup{width:100%;}
+  .responsive{border-radius:30px;}
+  .bg-popup{padding-top: 45%;}
+  .sair{margin-right: 30px;}
+}
